@@ -6,6 +6,9 @@ pmx.initModule({
 
   widget : {
 
+    pid : pmx.resolvePidPaths(['/var/run/mongodb.pid',
+                               '/var/run/mongodb/mongodb.pid']),
+
 	  logo : 'http://mongodb.org/static/images/mongodb-logo.png',
 
     theme            : ['#262E35', '#222222', '#3ff', '#3ff'],
@@ -26,7 +29,7 @@ pmx.initModule({
   }
 
 }, function(err, conf) {
-var url = 'mongodb://localhost:27017/test';
+var url = 'mongodb://localhost:' + conf.port + '/test';
   MongoClient.connect(url, function(err, db) {
     assert.equal(null, err);
     console.log("Connected correctly to server.");
