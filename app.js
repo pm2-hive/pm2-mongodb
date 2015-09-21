@@ -29,7 +29,7 @@ pmx.initModule({
   }
 
 }, function(err, conf) {
-var url = 'mongodb://localhost:' + conf.port + '/test';
+  var url = 'mongodb://' + conf.ip + ':' + conf.port + '/test';
   MongoClient.connect(url, function(err, db) {
     assert.equal(null, err);
     console.log("Connected correctly to server.");

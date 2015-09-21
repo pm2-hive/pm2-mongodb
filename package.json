@@ -13,6 +13,7 @@
     "url": "https://github.com/keymetrics/pmx.git"
   },
   "config" : {
+    "ip": "127.0.0.1",
     "port": 27017,
     "username": "",
     "password": "",
