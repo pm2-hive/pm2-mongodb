@@ -1,11 +1,12 @@
 {
   "name": "pm2-mongodb",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "PM2 MongoDB Module",
   "main": "app.js",
   "dependencies": {
     "pmx": "latest",
-    "mongodb": "latest"
+    "mongodb": "latest",
+    "shelljs": "latest"
   },
   "repository": {
     "type": "git",
