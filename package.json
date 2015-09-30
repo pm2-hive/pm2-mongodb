@@ -1,29 +1,30 @@
 {
   "name": "pm2-mongodb",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "PM2 MongoDB Module",
   "main": "app.js",
   "dependencies": {
-    "pmx" : "latest",
-    "shelljs": "latest",
-    "mongodb" : "latest"
+    "pmx": "latest",
+    "mongodb": "latest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/keymetrics/pmx.git"
+    "url": "https://github.com/pm2-hive/pm2-mongodb"
   },
-  "config" : {
+  "config": {
     "ip": "127.0.0.1",
     "port": 27017,
     "username": "",
     "password": "",
     "authDB": ""
   },
-  "apps" : [{
-    "merge_logs"         : true,
-    "max_memory_restart" : "200M",
-    "script"             : "app.js"
-  }],
+  "apps": [
+    {
+      "merge_logs": true,
+      "max_memory_restart": "200M",
+      "script": "app.js"
+    }
+  ],
   "author": "Keymetrics Inc.",
   "license": "MIT"
 }
