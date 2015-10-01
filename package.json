@@ -1,6 +1,6 @@
 {
   "name": "pm2-mongodb",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "PM2 MongoDB Module",
   "main": "app.js",
   "dependencies": {
