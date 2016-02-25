@@ -1,0 +1,19 @@
+# .editorconfig
+# More info: editorconfig.org
+
+root = true
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.md]
+trim_trailing_whitespace = false
+
+[package.json]
+# package.json adhere to --save-dev manipulation styles
+indent_style = space
+indent_size = 2
