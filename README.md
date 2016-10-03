@@ -7,6 +7,10 @@ PM2 module to automatically monitor vital signs of your mongodb :
 * Used memory space
 * Network speed (input and output)
 
+# Requirements
+
+This module uses the `mongostat` CLI tool included in the MongoDB package. If you want to monitor a remote mongodb instance, please install MongoDB on the server starting the module.
+
 # pm2-mongodb
 
 ## Install
