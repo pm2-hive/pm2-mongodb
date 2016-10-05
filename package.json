@@ -1,12 +1,11 @@
 {
   "name": "pm2-mongodb",
-  "version": "0.4.3",
+  "version": "1.0.0",
   "description": "PM2 MongoDB Module",
   "main": "app.js",
   "dependencies": {
     "pmx": "latest",
-    "mongodb": "latest",
-    "shelljs": "latest"
+    "mongodb": "latest"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,6 @@
     "username": "",
     "password": "",
     "authDB": "",
-    "useClient": false,
     "refresh_rate": 5000
   },
   "apps": [
