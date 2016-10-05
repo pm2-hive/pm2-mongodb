@@ -24,6 +24,7 @@ $ pm2 install pm2-mongodb
 *   `port` (Defaults to `27017`) Port of mongodb server
 *   `username` (Defaults to `none`) used for authentication
 *   `password` (Defaults to `none`) used for authentication
+*   `authDB` (Defaults to `none`) used for authentication
 *   `refresh_rate` (Defaults to `5000` in ms): Control the refresh rate of the worker
 
 ## Uninstall
