@@ -33,9 +33,9 @@ $ pm2 install pm2-mongodb
 `pm2 set pm2-mongodb: `
 
 e.g: 
-- `pm2 set pm2-mongodb:workerInterval 5` (every 5 seconds)
-- `pm2 set pm2-mongodb:ip 42.42.42.42` (ip of my redis server)
-- `pm2 set pm2-mongodb:pwd "bestpasswd"` (the password will be used to connect to redis)
+- `pm2 set pm2-mongodb:refresh_rate 5000` (every 5 seconds)
+- `pm2 set pm2-mongodb:ip 42.42.42.42` (ip of my mongodb server)
+- `pm2 set pm2-mongodb:password "bestpasswd"` (the password will be used to connect to mongo)
 
 ## Uninstall
 
