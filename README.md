@@ -8,6 +8,7 @@ PM2 module to automatically monitor vital signs of your mongodb :
 *   Network speed (input and output)
 *   Repl name and status
 
+
 # pm2-mongodb
 
 ## Install
@@ -19,6 +20,8 @@ $ pm2 install pm2-mongodb
 ```
 
 ## Configuration
+
+**NODE** : User should have access to `admin` database to query statistics (see [mongo doc](http://mongodb.github.io/node-mongodb-native/2.2/api/Admin.html))
 
 *   `ip` (Defaults to `127.0.0.1`) IP of mongodb server
 *   `port` (Defaults to `27017`) Port of mongodb server
