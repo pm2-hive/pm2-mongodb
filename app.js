@@ -10,7 +10,7 @@ pmx.initModule({
       '/var/run/mongodb/mongodb.pid'
     ]),
 
-    logo: 'http://mongodb.org/static/images/mongodb-logo.png',
+    logo: 'https://raw.githubusercontent.com/pm2-hive/pm2-mongodb/master/pres/mongodb-logo.png',
 
     theme: ['#262E35', '#222222', '#3ff', '#3ff'],
 
