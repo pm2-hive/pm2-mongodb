@@ -4,8 +4,8 @@
   "description": "PM2 MongoDB Module",
   "main": "app.js",
   "dependencies": {
-    "pmx": "latest",
-    "mongodb": "latest"
+    "pmx": "^1.6.7",
+    "mongodb": "^3.1.8"
   },
   "repository": {
     "type": "git",
@@ -19,13 +19,11 @@
     "authDB": "",
     "refresh_rate": 5000
   },
-  "apps": [
-    {
-      "merge_logs": true,
-      "max_memory_restart": "200M",
-      "script": "app.js"
-    }
-  ],
+  "apps": [{
+    "merge_logs": true,
+    "max_memory_restart": "200M",
+    "script": "app.js"
+  }],
   "author": "Keymetrics Inc.",
   "license": "MIT"
 }
